@@ -1,7 +1,6 @@
 <head>
 <%@ page isELIgnored="false" %>
 </head>
-
 <html>
-<h>welcome ${username}</h>
+<h>welcome ${username} to Stackroute</h>
 </html>

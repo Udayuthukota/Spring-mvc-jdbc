@@ -21,4 +21,9 @@ public class UserConfiguration {
         viewResolver.setSuffix(".jsp");
         return viewResolver;
     }
+
+//    @Bean
+//    public User userInfo(){
+//        return new User();
+//    }
 }

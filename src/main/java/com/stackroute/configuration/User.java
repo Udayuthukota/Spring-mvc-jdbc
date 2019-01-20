@@ -1,4 +1,8 @@
 package com.stackroute.configuration;
+
+import org.springframework.stereotype.Component;
+
+@Component
 public class User {
     private String username ;
     private String password ;
@@ -8,14 +12,6 @@ public class User {
         this.password = password;
     }
     public User() {
-    }
-
-    @Override
-    public String toString() {
-        return "user{" +
-                "username='" + username + '\'' +
-                ", password='" + password + '\'' +
-                '}';
     }
 
     public String getUsername() {

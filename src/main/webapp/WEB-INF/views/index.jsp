@@ -1,7 +1,6 @@
 <head>
 <%@ page isELIgnored="false" %>
 </head>
-
 <html>
 <body>
 <form action="welcome">
